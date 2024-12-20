@@ -1,0 +1,9 @@
+document.addEventListener('DOMContentLoaded', () => {
+    const form = document.querySelector(".registration-form");
+  
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      alert("Thank you for registering! We’ll contact you soon.");
+    });
+  });
+  
